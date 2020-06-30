@@ -644,7 +644,7 @@ section {
   padding: 10px 12px;
 }
 
-.contact .email-form button[type="submit"] {
+.contact .email-form button[type="button"] {
   background: #34b7a7;
   border: 0;
   padding: 10px 30px 12px 30px;
@@ -653,8 +653,16 @@ section {
   border-radius: 50px;
 }
 
-.contact .email-form button[type="submit"]:hover {
+.contact .email-form button[type="button"]:hover {
   background: #3dc8b7;
+}
+#demo{
+  font-size: 1.5em;
+  font-family: 'Dancing Script', cursive;
+  color: #34b7a7;
+  text-align: center;
+  width: 100%;
+  margin-top: 5%;
 }
 
 iframe {
